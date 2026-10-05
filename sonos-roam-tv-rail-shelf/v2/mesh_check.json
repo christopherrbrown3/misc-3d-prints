@@ -1,0 +1,23 @@
+{
+  "watertight": true,
+  "winding_consistent": true,
+  "connected_solids": 1,
+  "bounds_mm": [
+    [
+      -95.0,
+      -26.0,
+      0.0
+    ],
+    [
+      95.0,
+      112.0,
+      82.0
+    ]
+  ],
+  "dimensions_mm": [
+    190.0,
+    138.0,
+    82.0
+  ],
+  "volume_mm3": 209397.56018545825
+}

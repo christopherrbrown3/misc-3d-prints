@@ -1,0 +1,22 @@
+{
+  "slice_completed": true,
+  "supports_checked": true,
+  "estimate_seconds": 23910,
+  "filament_g": 183.19,
+  "filaments": [
+    {
+      "id": "2",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#000000",
+      "used_m": "60.45",
+      "used_g": "183.19",
+      "used_for_object": "true",
+      "used_for_support": "true",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard"
+    }
+  ],
+  "print_started": false
+}
