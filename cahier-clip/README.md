@@ -7,8 +7,6 @@ and the bridge between them provides the spring. The tongue tip has a lead-in
 ramp so it wedges over pages instead of snagging. "CRB" is engraved into the
 top of the tongue.
 
-![Cahier clip v1](v1/preview.png)
-
 ## Versions
 
 | Version | Status |
@@ -44,11 +42,15 @@ Target printer is a Bambu Lab A1 with a 0.4 mm nozzle:
 
 ## Files
 
-- `source/build_v1.py` — drives SolidCraft's MCP server to rebuild the part.
-- `source/cahier-clip.solidcraft` — the editable SolidCraft design.
-- `v1/cahier-clip.stl` — millimeter STL, watertight, single solid.
+- `source/build_v1.py` — drives SolidCraft's MCP server to rebuild the part;
+  running it regenerates the editable `.solidcraft` design and the STL.
+- `v1/cahier-clip.stl` — millimeter STL (ASCII encoding), watertight,
+  single solid.
 - `v1/mesh_check.json` — measured dimensions and volume for the STL.
-- `v1/preview.png` — render from SolidCraft.
+
+The `.solidcraft` design file and the render are binary and aren't stored
+here — the GitHub connector used to publish this repo handles text only.
+The build script is the source of truth; both files regenerate from it.
 
 Iteration knobs, all in the build script's profile sketch: grip gap, tongue
 length, width, wall thickness, and the monogram text.
