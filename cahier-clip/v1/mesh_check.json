@@ -1,0 +1,11 @@
+{
+  "watertight": true,
+  "consistent_winding": true,
+  "solids": 1,
+  "dimensions_mm": [
+    44.0,
+    2.9,
+    30.0
+  ],
+  "volume_mm3": 2248.758441102778
+}
